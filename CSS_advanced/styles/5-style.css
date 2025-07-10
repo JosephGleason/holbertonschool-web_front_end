@@ -1,4 +1,8 @@
 /* Task 5: Define font-size variables and apply to html and body */
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --color-primary: #d73953;
   --color-black: #090909;

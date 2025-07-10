@@ -1,4 +1,8 @@
 /* Task 2: Color and visibility adjustments for body, links, categories, and visually hidden elements */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     color: #161616;
 }

@@ -1,4 +1,8 @@
 /* Task 3: Use custom properties for colors and reuse them */
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -14,6 +18,10 @@ body {
 
 a {
     color: var(--text-color);
+}
+
+.visually-hidden {
+    display: none;
 }
 
 .card-category {
