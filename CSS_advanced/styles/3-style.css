@@ -9,22 +9,17 @@
 }
 
 body {
-    color: #161616;
+    color: var(--text-color);
 }
 
 a {
-    color: #161616;
-}
-
-.visually-hidden {
-    display: none;
+    color: var(--text-color);
 }
 
 .card-category {
-    color: #D73953;
+    color: var(--color-primary);
 }
 
 .section-tagline {
-    color: #D73953;
+    color: var(--color-primary);
 }
-
