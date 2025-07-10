@@ -1,6 +1,7 @@
 /* Task 5: Define font-size variables and apply to html and body */
 html {
   scroll-behavior: smooth;
+  font-size: 62.5%;
 }
 
 :root {
@@ -18,10 +19,6 @@ html {
   --font-size-x-large: 2.3rem;
   --font-size-xx-large: 4.8rem;
 
-}
-
-html {
-  font-size: 62.5%;
 }
 
 body {
