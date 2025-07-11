@@ -556,14 +556,14 @@ ul.row {
   color: var(--text-color);
 }
 
-.footer {
-    padding: var(--footer-padding);
-}
-
 .social-link {
   display: block;
 }
 
-.social-link svg {
+.social-link > svg {
   fill: var(--text-color);
+}
+
+.footer {
+    padding: var(--footer-padding);
 }
